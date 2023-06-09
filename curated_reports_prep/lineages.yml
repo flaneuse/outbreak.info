@@ -25630,6 +25630,7 @@
       - EG.5.2
       - EG.6
       - EG.6.1
+      - EG.7
       - EK.1
       - EK.2
       - EK.2.1
@@ -25934,6 +25935,7 @@
       - EG.5.2
       - EG.6
       - EG.6.1
+      - EG.7
       - EK.1
       - EK.2
       - EK.2.1
@@ -26941,6 +26943,7 @@
       - EG.5.2
       - EG.6
       - EG.6.1
+      - EG.7
       - FL.1
       - FL.1.1
       - FL.1.2
@@ -27198,6 +27201,7 @@
       - EG.5.2
       - EG.6
       - EG.6.1
+      - EG.7
       - XBB.1.9.2
   parent: XBB.1.9
 - name: EG.1
@@ -27272,6 +27276,11 @@
   children:
       - EG.6.1
   parent: EG.6
+- name: EG.7
+  alias: XBB.1.9.2.7
+  children:
+      - EG.7
+  parent: XBB.1.9.2
 - name: XBB.1.9.3
   alias: XBB.1.9.3
   children:
